@@ -1,0 +1,94 @@
+
+* {
+    padding: 0;
+}
+.todoForm {
+    max-width: 50rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+#todoBox {
+    /* width: 50rem; */
+    background-color: rgb(91, 184, 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#addBox{
+    font-size: 1.2rem;
+    height: 2.1rem;
+    width: 30rem;
+    padding: 0 .5rem;
+}
+#addBtn{
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width: 6rem;
+}
+
+.divDesign {
+    /* background-color: rgb(248, 246, 243); */
+    width: 99%;
+    height: 3rem;
+    /* padding: 0 1rem ; */
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem auto;
+    border: 2px solid rgb(203, 203, 203);
+    border-radius: 12px;
+    box-shadow: 0 0 .25rem rgba(112, 109, 109, 0.27);
+}
+.close{
+    /* background-color: rgb(250, 39, 39); */
+    display: flex;
+    align-items: center;
+    padding: 0 .75rem;
+    font-size: larger;
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+} 
+
+.confirmCrs{
+    width: 50rem;
+    padding-left: 0.5rem;
+    font-size: 32px;
+}
+
+#ulDesign {
+    border: 3px solid rgb(134, 133, 133);
+    margin-top: 2rem;
+    padding: 0;
+    height: 25rem;
+    /* overflow-y: scroll; */
+    background-color: rgb(255, 252, 252);
+    box-shadow: 0 0 1rem rgba(112, 109, 109, 0.15);
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul li:hover {
+    background: #ddd;
+  }
+ul li.checked {
+    background: rgb(113, 112, 112);
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+ul div{
+     display: flex;
+     justify-content: space-between;
+     cursor: pointer;
+     overflow: hidden;
+}
+
